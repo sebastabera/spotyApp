@@ -8,7 +8,7 @@ import { SpotifyService } from '../../services/spotify.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor( private spotity:SpotifyService) {
+  constructor( private spotify:SpotifyService) {
     this.spotify.getNewReleases();
   }
 
